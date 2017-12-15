@@ -1,0 +1,20 @@
+{
+    "name": "mantas-done/short-closure",
+    "description": "Short closures for PHP",
+    "type": "library",
+    "authors": [
+        {
+            "name": "Mantas Donelavicius"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "MantasDone\\ShortClosures\\": "src/"
+        },
+        "files": [
+            "src/helpers.php"
+        ]
+    }
+}
