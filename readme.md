@@ -46,7 +46,7 @@ echo $anonymous_function(3); // output: 6
 ## Instalation ##
 
 ```
-composer require mantas-done/short-closure
+composer require mantas-done/short-closures
 ```
 
 ## Syntax ##
