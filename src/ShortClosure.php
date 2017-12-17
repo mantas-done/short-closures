@@ -2,7 +2,7 @@
 
 class ShortClosure
 {
-    public static function generate($code, $params = [])
+    public static function generate($code)
     {
         if (self::noArrowInCode($code)) {
             $code = self::addArrowAndVariable($code);
